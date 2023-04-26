@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot template using Node.js and grammY",
+  "author": "sokolova-an",
+  "license": "GPL-3.0-or-later",
+  "main": "app.js",
+  "keywords": [
+    "bot",
+    "chat",
+    "telegram"
+  ],
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "grammy": "^1.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokolova-an/js-tg-bot-template.git"
+  }
+}
